@@ -1,4 +1,4 @@
-const backendURL = 'http://localhost:3000/api'; // Update this if your backend is hosted elsewhere
+const backendURL = 'http://localhost:3000'; // Update this if your backend is hosted elsewhere
 
 let token = '';
 let userRole = '';
