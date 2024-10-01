@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 300px;
+    max-width: 100%;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#courses-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-item {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.course-item span {
+    display: inline-block;
+    width: 200px;
+}
+
+.course-item button {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+
+.course-item button.update-btn {
+    background-color: #007bff;
+}
